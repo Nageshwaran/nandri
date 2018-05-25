@@ -19,12 +19,12 @@ public class HibernateUtil {
        Transaction trn = session.beginTransaction();
        
        Employee employee= new Employee();
-       employee.setName("First Employee");
-       employee.setAge(20);
+       employee.setName("afoio Employee");
+       employee.setAge(30);
        
        session.persist(employee);
        trn.commit();
-       session.close();;
+       session.close();
    }
 
 }
